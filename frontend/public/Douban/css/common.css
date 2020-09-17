@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f7f7f7;
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+input {
+    margin-right: 3px;
+    vertical-align: middle;
+}

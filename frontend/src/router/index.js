@@ -3,12 +3,21 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import myHome from '../components/Mine/myHome.vue'
 
+//首页
+import firstPage from '../components/FirstPage/firstPage.vue'
+
 Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-        redirect: '/myHome'
-    }, {
+        name: 'firstPage',
+        component: firstPage
+    },
+    // {
+    //     path: '/',
+    //     redirect: '/myHome'
+    // }, 
+    {
         path: '/myHome',
         name: 'myHome',
         component: myHome
