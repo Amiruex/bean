@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- 头部 -->
         <header>
             <!-- 搜索框 -->
             <div class="search">
@@ -139,6 +140,7 @@
                 </div>
             </div>
         </header>
+        <!-- 主体部分 -->
         <section>
             <!-- 热点内容 -->
             <div class="rot-content">
