@@ -1,0 +1,904 @@
+/* 热点内容 */
+
+.rot-content {
+    height: 560px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.rot {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.rot-content .r-left {
+    float: left;
+    width: 650px;
+}
+
+.rot-content .r-left .p1,
+.rot-content .r-right .p1,
+.douban-time .dr .p1 {
+    height: 30px;
+    line-height: 30px;
+    color: #072;
+    margin-top: 25px;
+}
+
+.rot-content .r-left .p1 a,
+.rot-content .r-right .p1 a,
+.douban-time .dr .p1 a {
+    color: #37a;
+    font-size: 12px;
+}
+
+.rot-content .r-left .p1 a:hover,
+.rot-content .r-right .p1 a:hover,
+.rot-content .r-left .r-img div a:hover,
+.douban-time .dr .p1 a:hover {
+    color: white;
+    background-color: #37a;
+}
+
+.rot-content .r-left .r-img {
+    float: left;
+    width: 380px;
+}
+
+.rot-content .r-left .r-img div {
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+.rot-content .r-left .r-img .r-img1 {
+    margin-right: 10px;
+}
+
+.rot-content .r-left .r-img .r-img2 {
+    margin-bottom: 10px;
+}
+
+.rot-content .r-left .r-img div img {
+    width: 180px;
+    height: 170px;
+}
+
+.rot-content .r-left .r-img div div {
+    font-size: 12px;
+    color: #999;
+}
+
+.rot-content .r-left .r-img div div a {
+    color: #3377aa;
+}
+
+.rot-content .r-left .r-chart {
+    float: right;
+    width: 255px;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.rot-content .r-left .r-chart a,
+.rot-content .r-right div:last-child a {
+    color: #3377aa;
+}
+
+.rot-content .r-left .r-chart a:hover,
+.rot-content .r-right div:last-child a:hover {
+    color: white;
+    background-color: #3377aa;
+}
+
+.rot-content .r-right {
+    float: right;
+    width: 260px;
+}
+
+.rot-content .r-right div:first-child img {
+    width: 260px;
+    height: 130px;
+    margin-top: 25px;
+}
+
+.rot-content .r-right .p1 {
+    margin-top: 8px;
+}
+
+.rot-content .r-right div:last-child {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.rot-content .r-right div:last-child p span {
+    display: block;
+    color: #999;
+    font-size: 13px;
+}
+
+.rot-content .r-right div:last-child p span span {
+    display: inline;
+}
+
+
+/* 豆瓣时间 */
+
+.douban-time {
+    height: 600px;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.douban-time .dl {
+    float: left;
+    width: 100px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.douban-time .dl a {
+    font-size: 25px;
+    color: #333;
+}
+
+.douban-time .dr {
+    float: right;
+    width: 820px;
+    height: 600px;
+}
+
+.douban-time .dr ul {
+    width: 820px;
+    margin-top: 10px;
+}
+
+.douban-time .dr ul li {
+    float: left;
+    width: 130px;
+    height: 260px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.douban-time .dr ul li img {
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.douban-time .dr ul li p {
+    width: 110px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.douban-time .dr ul li p a {
+    color: #333;
+    font-size: 13px;
+}
+
+.douban-time .dr ul li p a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.douban-time .dr ul li span {
+    color: #999;
+    font-size: 12px;
+}
+
+
+/* 电影 */
+
+.films {
+    height: 700px;
+    background-color: #fff;
+}
+
+.film {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.film .film-left,
+.group .group-left {
+    float: left;
+    width: 100px;
+    margin-top: 25px;
+}
+
+.film .film-left p:first-child,
+.group .group-left p:first-child {
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+
+.film .film-left a {
+    color: #37a;
+}
+
+.film .film-left a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.film .film-left ul li,
+.group .group-left ul li {
+    height: 30px;
+    font-size: 14px;
+    position: relative;
+}
+
+.film .film-right {
+    height: 675px;
+}
+
+.film .film-right,
+.group .group-right {
+    float: right;
+    width: 830px;
+    margin-top: 25px;
+}
+
+.film .film-right .film-show,
+.group .group-right .group-show {
+    float: left;
+    width: 550px;
+}
+
+.film .film-right .film-show p:first-child,
+.film .film-right .film-class .top p:first-child,
+.film .film-right .film-class .bottom p:first-child,
+.group .group-right .group-show p:first-child,
+.group .group-right .group-class p:first-child {
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+    color: #072;
+}
+
+.film .film-right .film-show p:first-child a,
+.film .film-right .film-class .top p:first-child a,
+.film .film-right .film-class .bottom p:first-child a,
+.group .group-right .group-show p:first-child a,
+.group .group-right .group-class p:first-child a {
+    color: #37a;
+    font-size: 13px;
+}
+
+.film .film-right .film-show p:first-child a:hover,
+.film .film-right .film-class .top p:first-child a:hover,
+.film .film-right .film-class .bottom p:first-child a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.film .film-right .film-show div ul li {
+    float: left;
+    width: 126px;
+    height: 235px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.film .film-right .film-show div ul li img:first-child {
+    display: block;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.film .film-right .film-show div ul li p:nth-child(2) {
+    width: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.film .film-right .film-show div ul li p:nth-child(2) a {
+    color: #333;
+}
+
+.film .film-right .film-show div ul li a:last-child {
+    padding: 5px 10px;
+    background-color: #1c8bd0;
+    color: white;
+    border-radius: 3px;
+}
+
+.film .film-right .film-show div ul li p:nth-child(2) a {
+    background-color: #fff;
+}
+
+.film .film-right .film-show div ul li p:nth-child(3) {
+    margin: 5px 0px;
+}
+
+.film .film-right .film-show div ul li p:nth-child(3) img {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+}
+
+.film .film-right .film-show div ul li p:nth-child(3) span {
+    color: #e09015;
+    font-size: 13px;
+}
+
+.film .film-right .film-class {
+    float: right;
+    width: 260px;
+}
+
+.film .film-right .film-class a {
+    color: #37a;
+    font-size: 12px;
+}
+
+.film .film-right .film-class a:hover {
+    color: white;
+    background-color: #37a;
+}
+
+.film .film-right .film-class dl {
+    display: inline-block;
+    width: 48px;
+    line-height: 25px;
+}
+
+.film .film-right .film-class .top .last {
+    width: 46px;
+}
+
+.film .film-right .film-class .bottom ol {
+    height: 630px;
+}
+
+.film .film-right .film-class .bottom ol li {
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.film .film-right .film-class .bottom ol li span {
+    padding: 0px 10px 0px 0px;
+}
+
+.film .film-right .film-class .bottom ol .ten span {
+    padding-right: 3px;
+}
+
+.films .film .film-right .film-show li p:nth-child(2) a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+
+/* 小组 */
+
+.group {
+    width: 950px;
+    height: 625px;
+    margin: 0 auto;
+}
+
+.group .group-left a,
+.group .group-right a {
+    color: #017a85;
+}
+
+.group .group-left a:hover,
+.group .group-right .group-show p:first-child a:hover,
+.group .group-right .group-class p:first-child a:hover,
+.group .group-right a:hover {
+    color: white;
+    background-color: #017a85;
+}
+
+.group .group-right {
+    height: 600px;
+}
+
+.group .group-right .group-show dl {
+    float: left;
+    width: 260px;
+}
+
+.group .group-right .group-show dl dd {
+    height: 80px;
+}
+
+.group .group-right .group-show dl dd img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 15px 10px 0px 0px;
+    cursor: pointer;
+}
+
+.group .group-right .group-show dl dd div {
+    float: right;
+    width: 180px;
+    font-size: 13px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+.group .group-right .group-show dl dd div span {
+    display: block;
+    color: #999;
+}
+
+.group .group-right .group-class {
+    float: right;
+    width: 265px;
+    line-height: 20px;
+}
+
+.group .group-right .group-class li a {
+    font-size: 12px;
+    padding: 0px 6px;
+}
+
+.group .group-right .group-class ul li {
+    margin-bottom: 10px;
+}
+
+.group .group-right .group-class ul li a:first-child {
+    width: 60px;
+    display: block;
+    color: #333;
+    font-size: 15px;
+}
+
+.group .group-right .group-class ul li a:first-child:hover {
+    color: white;
+}
+
+
+/* 读书 */
+
+.read .film .read-left a,
+.read .film .read-right a {
+    color: #614e3c;
+}
+
+.read .film .read-right .read-show p:first-child a,
+.read .film .read-right .read-class .top p:first-child a {
+    color: #614e3c;
+}
+
+.read .film a:hover,
+.read .film .read-right .read-show p:first-child a:hover,
+.read .film .read-right .read-class .top p:first-child a:hover {
+    color: white;
+    background-color: #37a;
+}
+
+.read .film .read-right .read-show .read-top {
+    height: 300px;
+}
+
+.read .film .read-right .read-show .read-top li a:nth-child(4) {
+    background-color: #999a95;
+    font-size: 13px;
+}
+
+.read .film .read-right .read-show .read-top li p:nth-child(3) {
+    font-size: 13px;
+}
+
+.read .film .read-right .read-class .top ul li {
+    width: 260px;
+    height: 55px;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.read .film .read-right .read-class .top ul li span:first-child {
+    color: #999;
+    font-size: 12px;
+}
+
+.read .film .read-right .read-class .top ul li a {
+    padding: 0px 4px;
+}
+
+.read .film .read-right .read-class .top ul .line {
+    border-bottom: none;
+}
+
+
+/* 音乐 */
+
+.music {
+    width: 950px;
+    height: 760px;
+    margin: 0 auto;
+}
+
+.music-t,
+.music-b {
+    margin-top: 35px;
+}
+
+.music-t {
+    float: left;
+    width: 100px;
+    height: 725px;
+}
+
+.music-t dl {
+    line-height: 30px;
+}
+
+.music-t dl dt a {
+    font-size: 24px;
+    color: #f39972;
+}
+
+.music-t dl a {
+    color: #555d53;
+    font-size: 14px;
+}
+
+.music-b p {
+    font-size: 15px;
+    color: #072;
+    height: 30px;
+    line-height: 30px;
+}
+
+.music-b .music-l p a,
+.music-b .music-r p a,
+.music-b .music-r ol li .d1 .d2 a,
+.music-b .music-l .first ul li a {
+    font-size: 13px;
+    color: #555d53;
+}
+
+.music-t dl dt a:hover,
+.music-t dl a:hover,
+.music-b p a:hover,
+.music-b .music-r ol li .d1 .d2 a:hover,
+.music-b .music-l .first ul li a:hover {
+    color: white;
+    background-color: #37a;
+}
+
+.music-t dl img {
+    display: block;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+
+.music-b {
+    float: right;
+    width: 830px;
+    height: 725px;
+}
+
+.music-b .music-l {
+    float: left;
+    width: 550px;
+}
+
+.music-b .music-l .first {
+    width: 550px;
+    height: 420px;
+}
+
+.music-b .music-l .first ul li {
+    float: left;
+    width: 121px;
+    height: 180px;
+    margin: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 20px;
+    position: relative;
+}
+
+.music-b .music-l .first ul li .img1 {
+    display: block;
+    width: 105px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.music-b .music-l .first ul li div:last-child {
+    position: absolute;
+    bottom: 2px;
+    left: 7px;
+}
+
+.music-b .music-l .first ul li div:last-child img {
+    width: 12px;
+    height: 12px;
+}
+
+.music-b .music-l .second {
+    width: 550px;
+    height: 300px;
+}
+
+.music-b .music-l .second .dan div {
+    float: left;
+    width: 120px;
+    height: 125px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.music-b .music-l .second .dan div p {
+    font-size: 13px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.music-b .music-l .second .dan div img:nth-child(1) {
+    margin-top: 10px;
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.music-b .music-l .second .dan div img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 23px;
+    cursor: pointer;
+    left: 35px;
+}
+
+.music-b .music-r {
+    float: right;
+    width: 260px;
+}
+
+.music-b .music-r ol li {
+    width: 260px;
+    height: 70px;
+    position: relative;
+}
+
+.music-b .music-r ol li span:nth-child(1) {
+    display: block;
+    width: 15px;
+    float: left;
+}
+
+.music-b .music-r ol li .d1 {
+    float: right;
+    width: 230px;
+}
+
+.music-b .music-r ol li .d1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.music-b .music-r ol li .d1 div:nth-child(1) {
+    float: left;
+    width: 50px;
+}
+
+.music-b .music-r ol li .d1 .d2 {
+    float: right;
+    width: 170px;
+    font-size: 13px;
+    color: #999;
+}
+
+.music-b .music-r ol li .d1 .d2 span {
+    display: block;
+}
+
+
+/* 豆品 */
+
+.goods {
+    width: 950px;
+    margin: 0 auto;
+}
+
+.goods .goods-l {
+    float: left;
+    width: 100px;
+    margin-top: 25px;
+}
+
+.goods .goods-l a {
+    display: block;
+    color: #072;
+    font-size: 25px;
+}
+
+.goods .goods-r {
+    margin-top: 25px;
+    float: right;
+    width: 830px;
+}
+
+.goods .goods-r .left {
+    float: left;
+    width: 550px;
+}
+
+.goods .goods-r .left p:first-child,
+.goods .goods-r .right .active p:first-child,
+.goods .goods-r .right .g-group p:first-child {
+    height: 30px;
+    line-height: 30px;
+    font-size: 17px;
+    color: #072;
+}
+
+.goods .goods-r .left p:first-child a,
+.goods .goods-r .left .commify div p a,
+.goods .goods-r .right .active p:first-child a,
+.goods .goods-r .right .g-group p:first-child a {
+    color: #37a;
+    font-size: 13px;
+}
+
+.goods .goods-r .left p:first-child a:hover,
+.goods .goods-r .left .commify div p a:hover,
+.goods .goods-r .right .active p:first-child a:hover,
+.goods .goods-r .right .g-group p:first-child a:hover {
+    color: white;
+    background-color: #37a;
+}
+
+.goods .goods-r .left .commify {
+    margin-top: 10px;
+}
+
+.goods .goods-r .left .commify div {
+    float: left;
+    width: 250px;
+    height: 230px;
+    margin: 0px 19px 10px 0px;
+    position: relative;
+}
+
+.goods .goods-r .left .commify div img {
+    display: block;
+    width: 248px;
+    margin: 0 auto;
+    height: 190px;
+}
+
+.goods .goods-r .left .commify div p {
+    margin-top: 10px;
+}
+
+.goods .goods-r .left .commify div p a {
+    font-size: 16px;
+}
+
+.goods .goods-r .left .commify div span {
+    color: red;
+    position: absolute;
+    right: 0px;
+}
+
+.goods .goods-r .right {
+    float: right;
+    width: 260px;
+}
+
+.goods .goods-r .right .active img {
+    display: block;
+    margin: 10px 0px;
+    width: 260px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.goods .goods-r .right .active a:nth-child(3),
+.goods .goods-r .right .g-group div a {
+    color: #37a;
+    font-size: 14px;
+}
+
+.goods .goods-r .right .active a:nth-child(3):hover,
+.goods .goods-r .right .g-group div a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.goods .goods-r .right .g-group {
+    margin-top: 30px;
+}
+
+.goods .goods-r .right .g-group .div div {
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.goods .goods-r .right .g-group div p {
+    position: relative;
+    color: #666;
+    font-size: 12px;
+}
+
+.goods .goods-r .right .g-group div p span:nth-child(2) {
+    position: absolute;
+    right: 0px;
+}
+
+
+/* 同城 */
+
+.itra-city {
+    height: 400px;
+}
+
+.itra-city .group-left a,
+.itra-city .group-right .group-show p:first-child a {
+    color: #614e3c;
+}
+
+.itra-city .group-left a:hover,
+.itra-city .group-left p:first-child a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.itra-city .group-left p:first-child a {
+    color: #df7659;
+}
+
+.itra-city .group-right {
+    height: 375px;
+}
+
+.itra-city .group-right .group-show .bottom div {
+    display: inline-block;
+    width: 255px;
+    height: 130px;
+}
+
+.itra-city .group-right .group-show .bottom div img {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 110px;
+}
+
+.itra-city .group-right .group-show .bottom div div {
+    width: 150px;
+    float: right;
+}
+
+.itra-city .group-right .group-show .bottom div div a,
+.itra-city .group-right .group-class ul li a {
+    color: #614e3c;
+    font-size: 13px;
+}
+
+.itra-city .group-right .group-show .bottom div div a:hover,
+.itra-city .group-right .group-class ul li a:hover {
+    background-color: #37a;
+    color: white;
+}
+
+.itra-city .group-right .group-show .bottom div div p {
+    font-size: 13px;
+    color: #666;
+}

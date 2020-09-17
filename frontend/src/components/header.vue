@@ -9,7 +9,7 @@
                     </li>
                     <li class="nav-user-account">
                         <a target="_blank" href="https://accounts.douban.com/passport/setting/" class="bn-more">
-                            <span>猫猫叹气的帐号</span><span class="arrow"></span>
+                            <span>登录/注册</span><span class="arrow"></span>
                         </a>
                         <div class="more-items">
                             <table cellpadding="0" cellspacing="0">
@@ -157,12 +157,23 @@
 </template>
 
 <script>
+import myHome from './Mine/myHome.vue'
+
 export default {
-    name: 'Header'
+    name: 'Header',
+    components: {
+        myHome
+    }
 }
 </script>
 
 <style scoped>
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
 .global-nav {
     height: 28px;
     color: #d5d5d5;
@@ -218,6 +229,26 @@ export default {
     display: none;
     position: absolute;
     left: 0;
+}
+
+#db-global-nav .bn-more span {
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
+    vertical-align: baseline;
+}
+
+#db-global-nav .arrow {
+    position: relative;
+    top: -2px;
+    left: 2px;
+    border-width: 3px 3px 0;
+    border-color: #d5d5d5 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
 }
 
 #db-global-nav table,
