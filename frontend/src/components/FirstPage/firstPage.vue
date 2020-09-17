@@ -34,8 +34,8 @@
                 <div class="login-warp">
                     <div class="login-login">
                         <div class="login-t">
-                            <div class="login-trangle trangle">
-                                <img src="../../assets/imgzou/index.png" alt="" title="扫码登录" style="cursor: pointer;">
+                            <div class="login-trangle">
+                                <img src="../../assets/imgzou/index.png" alt="" title="扫码登录" style="cursor: pointer;" class="trangle">
                             </div>
                             <div style="height: 25px;">
                                 <ul class="message">
@@ -116,8 +116,8 @@
                     </div>
                     <div class="login-copy">
                         <div class="login-t">
-                            <div class="login-trangle trangle1">
-                                <img src="../../assets/imgzou/index1.png" alt="" title="短信登录/注册" style="cursor: pointer;">
+                            <div class="login-trangle">
+                                <img src="../../assets/imgzou/index1.png" alt="" title="短信登录/注册" style="cursor: pointer;" class="trangle1">
                             </div>
                             <div style="height: 25px;">
                                 <ul>
@@ -1185,7 +1185,6 @@
         </section>
         <!-- 底部 -->
         <footer>
-            <i></i>
             <div class="bottom">
                 <p class="p1"></p>
                 <div style="margin-top: 20px;">
