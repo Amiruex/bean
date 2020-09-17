@@ -6,6 +6,8 @@ import store from './store'
 import 'bootstrap'
 import '@/assets/css/bootstrap.css'
 import axios from 'axios'
+import "./static/css/common.css";
+
 Vue.config.productionTip = false
 
 // var url = "http://localhost:3000" //express服务器的地址
