@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 13px Helvetica, Arial, sans-serif;
+}
+
+html body,
+html td,
+html th,
+html input,
+html .pl {
+    font-size: 13px;
+}
+
+a {
+    color: #37a;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+span {
+    color: #aaa;
+}
+
+
+/* a:link {
+    color: #37a;
+    text-decoration: none;
+} */
+
+a:hover {
+    background: none;
+    color: #494949;
+}
+
+
+/* 大盒子 */
+
+.wrapper {
+    width: 1040px;
+    margin: 0 auto;
+}
+
+
+/* 左侧 */
+
+.article {
+    width: 675px;
+    float: left;
+}
+
+.article .h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #494949;
+}
+
+.article .item {
+    margin-bottom: 30px;
+}
+
+
+/* 豆瓣头 */
+
+.article .item .hd {
+    height: 32px;
+}
+
+.article .item .hd .user-pic {
+    float: left;
+    line-height: 21px;
+    padding-top: 3px;
+}
+
+
+/* 用户头像 */
+
+.article .item .hd .user-pic img {
+    height: 20px;
+    width: 20px;
+    /* display: block; */
+    /* vertical-align: top; */
+    margin-right: 6px;
+    opacity: 0.75;
+}
+
+
+/* 用户昵称 */
+
+.article .item .hd .usr-pic a {
+    color: #333;
+    float: left;
+}
+
+
+/* 内容 */
+
+.article .item .bd p {
+    font-size: 13px;
+    color: #666;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.article .item .bd .bd_pic {
+    height: 95px;
+    width: 135px;
+    margin-left: 25px;
+    float: right;
+    /* overflow: hidden; */
+}
+
+.article .item .bd .bd_pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.article .item .bd .title {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.article .item .bd .title a {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+.article .item .bd .title a:hover {
+    color: #37a;
+}
+
+
+/* 话题栏 */
+
+.icon-topic {
+    margin-top: 10px;
+    padding-left: 19px;
+    line-height: 1.5;
+    background: url("../images/ic_tag@2x.png") left 1px no-repeat;
+    background-size: auto;
+    background-size: 15px auto;
+}
+
+
+/* 转发一栏 */
+
+.actions {
+    margin-top: 10px;
+    color: #aaa;
+}
+
+.actions a {
+    color: #666;
+}
+
+.hd .user-pic .name {
+    color: black;
+}
+
+.hd .user-pic .name:hover {
+    color: #37a;
+}
+
+.actions a:hover {
+    color: #494949;
+}
+
+
+/* 右侧 */
+
+.aside {
+    width: 300px;
+    float: right;
+}
+
+.aside .mod {
+    margin-bottom: 40px;
+}
+
+
+/* 头部 */
+
+.mod .hd {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+
+/* 头部标题 */
+
+.mod .hd h2 {
+    font-size: 16px;
+    padding-bottom: 10px;
+    margin: 0;
+    display: inline-block;
+    color: #072;
+}
+
+
+/* 第一个列表 */
+
+.mod .bd .side-columns li {
+    display: inline-block;
+    color: #ccc;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    padding: 0 10px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    height: 23px;
+}
+
+
+/* 第二个列表 */
+
+.mod .bd .side-colums2 li {
+    padding-bottom: 5px !important;
+    margin-bottom: 10px !important;
+}
+
+
+/* 第三个列表 */
+
+.mod .bd .side-colums3 li {
+    padding: 15px 0;
+}
+
+.mod .bd .side-colums3 li div {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: top;
+    /* line-height: 48px;
+    height: ; */
+}
