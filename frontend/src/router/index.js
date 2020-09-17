@@ -10,10 +10,6 @@ Vue.use(VueRouter)
 
 const routes = [{
         path: '/',
-<<<<<<< HEAD
-        name: 'Home',
-        component: Home
-=======
         name: 'firstPage',
         component: firstPage
     },
@@ -25,7 +21,6 @@ const routes = [{
         path: '/myHome',
         name: 'myHome',
         component: myHome
->>>>>>> 6fe188652b01d61b5a646469e719d79f589ff1fe
     },
     {
         path: '/about',
@@ -35,15 +30,18 @@ const routes = [{
         // which is lazy-loaded when the route is visited.
         component: () =>
             import ( /* webpackChunkName: "about" */ '../views/About.vue')
-<<<<<<< HEAD
-    },
-    {
-        path: '/explore',
-        name: 'explore',
-        component: () =>
-            import ('../views/Explore.vue')
-=======
->>>>>>> 6fe188652b01d61b5a646469e719d79f589ff1fe
+    },  
+    {        
+        path:   "/gallery",
+              name:   'Gallery',
+           component:  ()  =>             
+            import  (  /* webpackChunkName: "about" */  '../views/Gallery.vue')    
+    },  
+    {        
+        path:   "/explore",
+        name:   'explore',
+           component:  ()  =>             
+            import  (  /* webpackChunkName: "about" */  '../views/Explore.vue')    
     }
 ]
 
