@@ -1,5 +1,7 @@
 <template>
-<div class="wrapper">
+<div>
+    <head></head>
+    <div class="wrapper">
         <div class="content">
             <!-- 主体左部 -->
             <div class="article">
@@ -10,7 +12,7 @@
                 <div class="item">
                     <div class="hd">
                         <div class="user-pic">
-                            <router-link to="/people/xxx"><img src="../assets/yonghu1.jpg" alt=""></router-link>
+                            <router-link to="/people/xxx"><img src="../assets/img-liulan/yonghu1.jpg" alt=""></router-link>
                             <router-link to="/people/xxx" class="name" href="javascript:void(0)">Noëlla淼爷</router-link>
                         </div>
                     </div>
@@ -32,12 +34,12 @@
                 <div class="item">
                     <div class="hd">
                         <div class="user-pic">
-                            <a href="javascript:void(0)"><img src="../assets/yonghu2.jpg" alt=""></a>
+                            <a href="javascript:void(0)"><img src="../assets/img-liulan/yonghu2.jpg" alt=""></a>
                             <a class="name" href="javascript:void(0)">M.ei</a>
                         </div>
                     </div>
                     <div class="bd">
-                        <div class="bd_pic"><img src="../assets/yonghu2c.jpg" alt=""></div>
+                        <div class="bd_pic"><img src="../assets/img-liulan/yonghu2c.jpg" alt=""></div>
                         <div class="bd_content">
                             <div class="title"><a href="javascript:void(0)">日本 | 12月蜜（闺蜜）月之旅</a></div>
                             <p>想了很久，决定重新来写那年冬天的日本之旅。可能因为受到日剧与日本电影的影响，时常惊叹于日本文化中那种极致的态度与哀物之美，每一个细节都如同艺术作品一样，直击人们内心最深处的恐惧与欲望，纯粹与真情。这是...</p>
@@ -127,7 +129,7 @@
                     </div>
                 </div>
                 <div class="ad">
-                    <img src="../assets/汽车广告.jpg" alt="">
+                    <img src="../assets/img-liulan/汽车广告.jpg" alt="">
                 </div>
                 <div class="mod" style="margin-top: 20px;">
                     <div class="hd">
@@ -135,31 +137,31 @@
                     </div>
                     <div class="bd">
                         <ul class="side-colums3">
-                            <li><img src="../assets/流浪.jpg" alt="">
+                            <li><img src="../assets/img-liulan/流浪.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">流浪动物救助站</a>
                                     <p>93861人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/豆瓣.jpg" alt="">
+                            <li><img src="../assets/img-liulan/豆瓣.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">豆瓣理想青年</a>
                                     <p>207506人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/The.jpg" alt="">
+                            <li><img src="../assets/img-liulan/The.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">The North Face 北面营</a>
                                     <p>23045人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/统帅.jpg" alt="">
+                            <li><img src="../assets/img-liulan/统帅.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">统帅</a>
                                     <p>22229人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/搞机党.jpg" alt="">
+                            <li><img src="../assets/img-liulan/搞机党.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">搞机党</a>
                                     <p>22197人关注</p>
@@ -171,14 +173,21 @@
             </div>
             <!-- 底部组件 -->
             <div class="footer">
+               
             </div>
         </div>
+    </div>
+    <foot></foot>
 </div>
 </template>
 <script>
+import Head from '../components/header';
+import foot from '../components/footer';
 export default {
   name: 'Explore',
   components: {
+      Head,
+      foot
   }
 }
 </script>
@@ -331,7 +340,7 @@ a:hover {
     margin-top: 10px;
     padding-left: 19px;
     line-height: 1.5;
-    background: url("../assets/ic_tag@2x.png") left 1px no-repeat;
+    background: url("../assets/img-liulan/ic_tag@2x.png") left 1px no-repeat;
     background-size: auto;
     background-size: 15px auto;
 }
