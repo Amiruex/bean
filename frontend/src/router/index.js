@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import myHome from '../components/Mine/myHome.vue'
+import people from '../components/Mine/people.vue'
 
 //首页
 import firstPage from '../components/FirstPage/firstPage.vue'
@@ -42,6 +43,10 @@ const routes = [{
         name:   'explore',
            component:  ()  =>             
             import  (  /* webpackChunkName: "about" */  '../views/Explore.vue')    
+    },{
+        path:"/people",
+        name:"people",
+        component:people
     }
 ]
 

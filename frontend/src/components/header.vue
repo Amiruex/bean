@@ -137,7 +137,7 @@
                             <router-link to="/myHome">首页</router-link>
                         </li>
                         <li>
-                            <router-link to="/mine">我的豆瓣</router-link>
+                            <router-link to="/people">我的豆瓣</router-link>
                         </li>
                         <li>
                             <router-link to="/explore">浏览发现</router-link>

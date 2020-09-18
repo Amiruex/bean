@@ -1,0 +1,272 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    color: #666699;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    background: #37a;
+}
+ul,ol{
+    list-style:none;
+}
+.clearfix{
+    content:"";
+    display:block;
+    clear:both;
+}
+.content{
+    width:1040px;
+    height:907.14px;
+    margin:74px auto;
+}
+.article{
+    float:left;
+    width:675px;
+    padding-right:40px;
+}
+.user-profile{
+    width:675px;
+    height:84px;
+    margin-bottom:26px;
+}
+.pic{
+    width:48px;
+    height:48px;
+    float:left;
+    margin-bottom:18px;
+    margin-right:12px;
+}
+.info{
+    width:278.13px;
+    height:84px;
+    float:left;
+    padding-top:2px;
+}
+.info h1{
+    padding:0 0 4px 0;
+    font-size:26px;
+    color:#494949;
+}
+.info .edit_signature{
+    font: 12px Arial, Helvetica, sans-serif;
+    font-size:13px;
+    margin:5px 0 5px 0;
+    color:#666666;
+}
+.info .edi a{
+    color:#777;
+    font-style:normal;
+}
+.info .edi a:hover{
+    color:white;
+}
+.info ul li{
+    display:inline;
+    margin-right:13px;
+}
+.info ul li{
+    font-size:13px;
+    color:#666699;
+}
+.info ul li a:hover{
+    background:#37a;
+    color:white;
+}
+.user_guide{
+    width:635px;
+    height:189px;
+    background:#f8f8f8;
+    color:#666;
+    padding:8px 20px;
+    margin:0 0 40px 0;
+}
+.guide {
+    color: #424242;
+    font-size: 14px;
+    margin:14px 0 14px 0;
+    line-height:24px;
+}
+.user_guide ol {
+    margin: 20px 30px 20px 50px;
+    padding: 0;
+} 
+.user_guide ol li.user-icon h5.done {
+    background: url(../images/guide_step_icon.gif) no-repeat left -22px;
+}
+.user_guide ol li h5 {
+    color: #666666;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 30px;
+    margin: 5px 0;
+    font-weight: normal;
+}
+.user_guide ol li h5 span {
+    padding-right: 25px;
+    background: url(../images/icon-ok-g.gif) no-repeat right center;
+}
+.user_guide ol li.user-intro h5.todo {
+    background: url(../images/guide_step_icon.gif) no-repeat left -44px;
+}
+.user_guide ol li h5 a{
+    background: none;
+    color: #005500;
+}
+.pl{
+    font: 12px Arial, Helvetica, sans-serif;
+    font-size:13px;
+    color: #666666;
+}
+.sort{
+    margin-bottom:35px;
+}
+.note{
+    position:relative;
+}
+.sort h2{
+    cursor:move;
+    font-size:16px;
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+}
+.sort h2:hover{
+    background:#f2fbf2;
+}
+.sort h2 span a:hover{
+    color:white;
+    background:#666699;
+}
+.note .lnk-create{
+    position:absolute;
+    right:0;
+    top:0;
+}
+.lnk-create {
+    font-size:13px;
+    color: #666;
+    background:#fcf7f3;
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    vertical-align: baseline;
+    overflow: hidden;
+    border: 1px solid #edded4;
+    border-radius: 2px;
+    letter-spacing: 2px;
+}
+i{
+    font-style:normal;
+}
+.con{
+    font-size:13px;
+}
+.photo{
+    position:relative;
+}
+.photo .photo-btns {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50%;
+    text-align: right;
+}
+.photoin{
+    width:20%;
+}
+.nbg img{
+    background:url(../images/albumback_s.gif) 1px 1px no-repeat;
+    padding:5px 8px 8px 5px;
+}
+.l1{
+    padding-top:8px;
+}
+.l1 a{
+    color: #666699;
+    line-height:20px;
+}
+.aside{
+    float:right;
+    width:300px;
+    height:376px;
+}
+.aside .infobox{
+    width:300px;
+    height:115px;
+    background: #fff6ed;
+    border: 1px solid #faefe3;
+    border-radius:5px;
+    margin-bottom:35px;
+}
+.basic-info{
+    width:151px;
+    height:57px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.basic-info img{
+    float:left;
+    margin:1px 10px 8px 0;
+}
+.sep-line{
+    clear: both;
+    font-size: 0;
+    height: 0;
+    border-bottom: 1px solid #f5e9db;
+    margin: 5px;
+    overflow: hidden;
+}
+.user-intro{
+    color:#666;
+    font-size:13px;
+}
+.edit_intro{
+    margin:5px 5px;
+    width:280px;
+    height:29px;
+    line-height:29px;
+}
+.edit_intro .intro_disp a{
+    color: #666699;
+    word-wrap: break-word;
+}
+.edit_intro .intro_disp a:hover{
+    color:white;
+    background: #37a;
+}
+.statuses{
+    width:300px;
+    height:157px;
+}
+.statuses h2{
+    font-size:16px;
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+    margin: 0 0 12px 0;
+}
+.statuses .status{
+    width:300px;
+    height:95px;
+    padding-bottom:14px;
+}
+.statuses .status .text{
+    margin:0 0 5px 0;
+    font-size:13px;
+}
+.status-text{
+    margin:13px 0 13px 0;
+    color: #333;
+    font-size:13px;
+}
+.actions{
+    font-size:13px;
+    margin:5px 0 5px 0;
+}
+.rev-link{
+    font-size:13px;
+    margin:13px 0 35px 0;
+}
+
