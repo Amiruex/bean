@@ -1,13 +1,13 @@
 import Vue from 'vue'
 // import App from './App.vue'
-import App from './App.vue'
+import App from './Appzou.vue'
 import router from './router'
 import store from './store'
 import 'bootstrap'
 import '@/assets/css/bootstrap.css'
 import axios from 'axios'
 import "./static/css/common.css";
-import "@/assets/css/people.css";
+
 
 Vue.config.productionTip = false
 
