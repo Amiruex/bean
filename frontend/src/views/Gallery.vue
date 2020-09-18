@@ -1,5 +1,8 @@
 <template>
-  <div class="w">
+   
+  <div>
+    <head-h></head-h>
+    <div class="w">
         <div class="content">
             <h1>话题广场</h1>
             <!-- 左边 -->
@@ -287,10 +290,21 @@
             </div>
         </div>
     </div>
+    <foot></foot>
+  </div>
 </template>
 
 <script>
+import HeadH from '../components/header'
+import Foot from '../components/footer'
+
 export default {
+  name:"Gallery",
+  components:{
+    HeadH,
+    Foot
+
+  }
 
 }
 </script>
@@ -317,7 +331,10 @@ ul li {
 .w .content h1 {
   color: #494949;
   margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: bolder;
   padding: 0 0 15px 0;
+  margin-top: -20px;
 }
 .w .content .left {
   /* background-color: pink; */
@@ -533,6 +550,7 @@ ul li {
 }
 .w .content .right .middle ol {
   margin-bottom: 50px;
+  color: #3377aa;
 }
 .w .content .right .middle ol li {
   margin-left: 20px;
