@@ -1,6 +1,8 @@
 <template>
-<div class="wrapper">
-        <div class="content">
+<div>
+    <Header></Header>
+    <div class="wrapper">
+        <div class="contentex">
             <!-- 主体左部 -->
             <div class="article">
                 <div class="h1">
@@ -10,7 +12,7 @@
                 <div class="item">
                     <div class="hd">
                         <div class="user-pic">
-                            <router-link to="/people/xxx"><img src="../assets/yonghu1.jpg" alt=""></router-link>
+                            <router-link to="/people/xxx"><img src="../assets/img-liulan/yonghu1.jpg" alt=""></router-link>
                             <router-link to="/people/xxx" class="name" href="javascript:void(0)">Noëlla淼爷</router-link>
                         </div>
                     </div>
@@ -32,12 +34,12 @@
                 <div class="item">
                     <div class="hd">
                         <div class="user-pic">
-                            <a href="javascript:void(0)"><img src="../assets/yonghu2.jpg" alt=""></a>
+                            <a href="javascript:void(0)"><img src="../assets/img-liulan/yonghu2.jpg" alt=""></a>
                             <a class="name" href="javascript:void(0)">M.ei</a>
                         </div>
                     </div>
                     <div class="bd">
-                        <div class="bd_pic"><img src="../assets/yonghu2c.jpg" alt=""></div>
+                        <div class="bd_pic"><img src="../assets/img-liulan/yonghu2c.jpg" alt=""></div>
                         <div class="bd_content">
                             <div class="title"><a href="javascript:void(0)">日本 | 12月蜜（闺蜜）月之旅</a></div>
                             <p>想了很久，决定重新来写那年冬天的日本之旅。可能因为受到日剧与日本电影的影响，时常惊叹于日本文化中那种极致的态度与哀物之美，每一个细节都如同艺术作品一样，直击人们内心最深处的恐惧与欲望，纯粹与真情。这是...</p>
@@ -61,57 +63,83 @@
                     <div class="bd">
                         <ul class="side-columns">
                             <li>
-                                <a href="javascript:void(0)">影视</a></li>
+                                <a href="javascript:void(0)">影视</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">读书</a></li>
+                                <a href="javascript:void(0)">读书</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">音乐</a></li>
+                                <a href="javascript:void(0)">音乐</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">人文</a></li>
+                                <a href="javascript:void(0)">人文</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">艺术</a></li>
+                                <a href="javascript:void(0)">艺术</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">旅行</a></li>
+                                <a href="javascript:void(0)">旅行</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">美食</a></li>
+                                <a href="javascript:void(0)">美食</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">时尚</a></li>
+                                <a href="javascript:void(0)">时尚</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">生活</a></li>
+                                <a href="javascript:void(0)">生活</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">画画</a></li>
+                                <a href="javascript:void(0)">画画</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">摄影</a></li>
+                                <a href="javascript:void(0)">摄影</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">自然</a></li>
+                                <a href="javascript:void(0)">自然</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">手作</a></li>
+                                <a href="javascript:void(0)">手作</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">建筑</a></li>
+                                <a href="javascript:void(0)">建筑</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">故事</a></li>
+                                <a href="javascript:void(0)">故事</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">成长</a></li>
+                                <a href="javascript:void(0)">成长</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">情感</a></li>
+                                <a href="javascript:void(0)">情感</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">找乐</a></li>
+                                <a href="javascript:void(0)">找乐</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">科技</a></li>
+                                <a href="javascript:void(0)">科技</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">萌宠</a></li>
+                                <a href="javascript:void(0)">萌宠</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">游戏</a></li>
+                                <a href="javascript:void(0)">游戏</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">八卦</a></li>
+                                <a href="javascript:void(0)">八卦</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">运动</a></li>
+                                <a href="javascript:void(0)">运动</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">理财</a></li>
+                                <a href="javascript:void(0)">理财</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">热议</a></li>
+                                <a href="javascript:void(0)">热议</a>
+                            </li>
                             <li>
-                                <a href="javascript:void(0)">二次元</a></li>
+                                <a href="javascript:void(0)">二次元</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -127,7 +155,7 @@
                     </div>
                 </div>
                 <div class="ad">
-                    <img src="../assets/汽车广告.jpg" alt="">
+                    <img src="../assets/img-liulan/汽车广告.jpg" alt="">
                 </div>
                 <div class="mod" style="margin-top: 20px;">
                     <div class="hd">
@@ -135,31 +163,31 @@
                     </div>
                     <div class="bd">
                         <ul class="side-colums3">
-                            <li><img src="../assets/流浪.jpg" alt="">
+                            <li><img src="../assets/img-liulan/流浪.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">流浪动物救助站</a>
                                     <p>93861人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/豆瓣.jpg" alt="">
+                            <li><img src="../assets/img-liulan/豆瓣.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">豆瓣理想青年</a>
                                     <p>207506人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/The.jpg" alt="">
+                            <li><img src="../assets/img-liulan/The.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">The North Face 北面营</a>
                                     <p>23045人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/统帅.jpg" alt="">
+                            <li><img src="../assets/img-liulan/统帅.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">统帅</a>
                                     <p>22229人关注</p>
                                 </div>
                             </li>
-                            <li><img src="../assets/搞机党.jpg" alt="">
+                            <li><img src="../assets/img-liulan/搞机党.jpg" alt="">
                                 <div>
                                     <a href="javascript:void(0)">搞机党</a>
                                     <p>22197人关注</p>
@@ -171,17 +199,26 @@
             </div>
             <!-- 底部组件 -->
             <div class="footer">
+
             </div>
         </div>
+    </div>
+    <Footer></Footer>
 </div>
 </template>
+
 <script>
+import Header from '../components/header';
+import Footer from '../components/footer';
 export default {
-  name: 'Explore',
-  components: {
-  }
+    name: 'Explore',
+    components: {
+        Header,
+        Footer
+    }
 }
 </script>
+
 <style scoped>
 * {
     padding: 0;
@@ -210,7 +247,6 @@ span {
     color: #aaa;
 }
 
-
 /* a:link {
     color: #37a;
     text-decoration: none;
@@ -221,7 +257,6 @@ a:hover {
     color: #494949;
 }
 
-
 /* 大盒子 */
 
 .wrapper {
@@ -229,6 +264,9 @@ a:hover {
     margin: 0 auto;
 }
 
+.contentex {
+    overflow: hidden;
+}
 
 /* 左侧 */
 
@@ -248,7 +286,6 @@ a:hover {
     margin-bottom: 30px;
 }
 
-
 /* 豆瓣头 */
 
 .article .item .hd {
@@ -261,7 +298,6 @@ a:hover {
     padding-top: 3px;
 }
 
-
 /* 用户头像 */
 
 .article .item .hd .user-pic img {
@@ -273,14 +309,12 @@ a:hover {
     opacity: 0.75;
 }
 
-
 /* 用户昵称 */
 
 .article .item .hd .usr-pic a {
     color: #333;
     float: left;
 }
-
 
 /* 内容 */
 
@@ -290,12 +324,15 @@ a:hover {
     line-height: 20px;
     text-align: justify;
 }
-.article .item .bd p .note{
+
+.article .item .bd p .note {
     color: #666;
 }
-.article .item .bd p .note:hover{
+
+.article .item .bd p .note:hover {
     color: #666;
 }
+
 .article .item .bd .bd_pic {
     height: 95px;
     width: 135px;
@@ -324,18 +361,16 @@ a:hover {
     color: #37a;
 }
 
-
 /* 话题栏 */
 
 .icon-topic {
     margin-top: 10px;
     padding-left: 19px;
     line-height: 1.5;
-    background: url("../assets/ic_tag@2x.png") left 1px no-repeat;
+    background: url("../assets/img-liulan/ic_tag@2x.png") left 1px no-repeat;
     background-size: auto;
     background-size: 15px auto;
 }
-
 
 /* 转发一栏 */
 
@@ -360,7 +395,6 @@ a:hover {
     color: #494949;
 }
 
-
 /* 右侧 */
 
 .aside {
@@ -372,14 +406,12 @@ a:hover {
     margin-bottom: 40px;
 }
 
-
 /* 头部 */
 
 .mod .hd {
     margin-bottom: 15px;
     border-bottom: 1px solid #f0f0f0;
 }
-
 
 /* 头部标题 */
 
@@ -390,7 +422,6 @@ a:hover {
     display: inline-block;
     color: #072;
 }
-
 
 /* 第一个列表 */
 
@@ -407,14 +438,12 @@ a:hover {
     height: 23px;
 }
 
-
 /* 第二个列表 */
 
 .mod .bd .side-colums2 li {
     padding-bottom: 5px !important;
     margin-bottom: 10px !important;
 }
-
 
 /* 第三个列表 */
 

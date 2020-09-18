@@ -35,7 +35,8 @@ export default {
     overflow: hidden;
     zoom: 1;
     border-top: 1px dashed #ddd;
-    width: 950px;
+    width: 1040px;
+    min-width: 950px;
 }
 
 .fleft {

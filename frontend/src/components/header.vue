@@ -273,7 +273,6 @@ table {
 
 #db-global-nav .top-nav-reminder .lnk-remind {
     display: inline-block;
-    display: inline;
     zoom: 1;
     padding: 0 12px;
     height: 28px;
