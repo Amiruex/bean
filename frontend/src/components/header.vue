@@ -584,4 +584,8 @@ ol {
     background-color: #072;
     color: #fff;
 }
+
+#db-nav-sns .nav-logo a:hover {
+    background-color: transparent;
+}
 </style>

@@ -1,0 +1,344 @@
+/* 搜索框  */
+
+.search {
+    height: 100px;
+    background-color: #fff;
+}
+
+.search-nav {
+    width: 1100px;
+    margin: 0 auto;
+    height: 100px;
+    line-height: 100px;
+}
+
+.search-nav .logo,
+.search-box,
+.search-link,
+.search-link ul,
+.search-link li {
+    display: inline-block;
+}
+
+.search-box {
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+}
+
+.search-box form {
+    margin: 0;
+    padding: 0;
+    border: 0px
+}
+
+.search-box .inp {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+}
+
+.search-box .inp ::-webkit-input-placeholder {
+    color: #dadada;
+}
+
+.search-box .inp ::-moz-placeholder {
+    color: #dadada;
+}
+
+.search-box .inp input {
+    width: 240px;
+    border: none;
+    font-size: 13px;
+    height: 20px;
+    padding: 5px;
+    position: absolute;
+}
+
+.search-box .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(../imgzou/btn1.png) 50% 50% no-repeat;
+}
+
+.search-box .btn input {
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    font-size: 0;
+    color: transparent;
+    cursor: pointer;
+}
+
+.search-link {
+    width: 530px;
+    margin-left: 110px;
+}
+
+.search-link li a {
+    font-size: 22px;
+    display: inline-block;
+    width: 52px;
+    font-weight: bold;
+}
+
+
+/* 登录框 */
+
+.login {
+    height: 300px;
+    background-image: url(../imgzou/login1.png);
+    background-size: contain;
+    background-position: calc(50% - 305px) top;
+    background-repeat: no-repeat;
+    background-color: #edf4ed;
+}
+
+.login .login-warp {
+    width: 950px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login-warp .login-login {
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.login-warp .login-login .login-t {
+    height: 50px;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.login-warp .login-login .login-t .login-trangle,
+.login-warp .login-copy .login-t .login-trangle {
+    height: 25px;
+    position: relative;
+}
+
+.login-warp .login-login .login-t .login-trangle img,
+.login-warp .login-copy .login-t .login-trangle img {
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+
+.login-warp .login-login .login-t div:nth-child(2) ul li {
+    width: 50%;
+    float: left;
+    height: 25px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    color: #999;
+}
+
+.login-warp .login-login .login-t div:nth-child(2) ul .active1 {
+    border-bottom: 1px solid #494949;
+    color: #333;
+}
+
+.login-warp .login-login .login-b {
+    display: none;
+}
+
+.login-warp .login-login .login-b ul li {
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 11px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(2) input,
+.login-warp .login-login .login-b ul li:nth-child(3) input {
+    background-color: #fff;
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    outline: 0;
+    box-shadow: none;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(2) input {
+    width: 300px;
+    padding: 8px 40px 8px 60px;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(2) .area {
+    width: 50px;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    overflow: hidden;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(3) input {
+    width: 280px;
+    padding: 8px 0px 8px 18px;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(3) div a {
+    position: absolute;
+    font-size: 13px;
+    top: 1px;
+    right: 10px;
+    color: #41ac52;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(4) span {
+    font-size: 16px;
+    background-color: #97d8a1;
+    border-radius: 3px;
+    color: white;
+    padding: 8px 118px;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(5) {
+    height: 25px;
+    line-height: 25px;
+}
+
+.login-warp .login-login .login-b ul li:nth-child(5) a {
+    font-size: 13px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+
+.login-warp .login-login .login-b ul li:last-child {
+    width: 270px;
+    border-top: 1px solid #c3c3c3;
+    color: #9b9b9b;
+}
+
+.login-warp .login-login .login-b ul li:last-child img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.login-warp .login-login .b2 ul li:nth-child(2) input {
+    width: 300px;
+    padding: 8px 0px 8px 18px;
+}
+
+.login-warp .login-login .b2 ul li:nth-child(2) div a {
+    position: absolute;
+    font-size: 13px;
+    top: 1px;
+    right: 10px;
+    color: #41ac52;
+}
+
+.login-warp .login-copy {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+    background-color: #edf4ed;
+    display: none;
+}
+
+.login-warp .login-copy .login-t div:nth-child(2) ul li {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    width: 300px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.login-warp .login-copy .login-b {
+    text-align: center;
+}
+
+.login-warp .login-copy .login-b img {
+    width: 170px;
+    height: 170px;
+    margin-top: 10px;
+}
+
+.login-warp .login-copy .login-b p {
+    width: 200px;
+    height: 30px;
+    color: #666;
+    margin: 10px auto;
+    font-size: 13px;
+    border-radius: 13px;
+    background-color: #dae1da;
+    text-align: center;
+    line-height: 30px;
+}
+
+.app {
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 450px;
+}
+
+.app div:first-child {
+    font-size: 24px;
+}
+
+.app div:nth-child(2) {
+    margin-top: 20px;
+    position: relative;
+}
+
+.app div:nth-child(2) a {
+    font-size: 12px;
+    color: white;
+    padding: 10px 20px;
+    background-color: #00b51d;
+    border-radius: 3px;
+}
+
+.app div:nth-child(2) img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #00b51d;
+    border-radius: 3px;
+}
+
+.app div:nth-child(2) img {
+    vertical-align: middle;
+}
+
+.app div:last-child {
+    position: absolute;
+    top: 50px;
+    left: 116px;
+    width: 210px;
+    height: 210px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    display: none;
+}
+
+.app div:last-child img {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    margin-top: 10px;
+}

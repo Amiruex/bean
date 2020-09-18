@@ -1,12 +1,12 @@
 <template>
-<div class="wrapper">
+<div class="wrap">
     <div class="content">
         <div class="clearfix ">
             <div class="article col-md-8">
                 <div class="isay">
                     <!-- 图标区 -->
                     <ul class="isay-links">
-                        <li style="margin-left:-40px"><img src="../../assets/img/icon1.png"><a href="#">说句话</a></li>
+                        <li style="margin:0"><img src="../../assets/img/icon1.png"><a href="#">说句话</a></li>
                         <li><img src="../../assets/img/icon2.png"><a href="#">发照片</a></li>
                         <li><img src="../../assets/img/icon3.png"><a href="#">推荐网页</a></li>
                         <li><img src="../../assets/img/icon4.png"><a href="#" title="添加日记">写日记</a></li>
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <!-- 侧边栏 -->
-            <div class="aside col-md-4 pull-right">
+            <div class="asidemh col-md-4 pull-right">
                 <!-- 豆瓣正在发生 -->
                 <div class="notify-mod">
                     <h2>
@@ -189,7 +189,7 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
+.wrap {
     /* height: 200px; */
     margin: 0 auto;
     /* border: 1px red solid; */
@@ -206,7 +206,7 @@ export default {
     min-height: 420px;
 }
 
-.clearfix:after {
+.wrap .content .clearfix:after {
     content: ".";
     display: block;
     height: 0;
@@ -215,7 +215,7 @@ export default {
 }
 
 /* 发布话题 */
-.article {
+.content .article {
     /* width: 675px; */
     /* border: 1px red solid; */
     /* float: left; */
@@ -365,7 +365,7 @@ export default {
     background: #f93;
 }
 
-.aside {
+.asidemh {
     padding-top: 28px;
     /* border: 1px red solid; */
 
@@ -393,10 +393,10 @@ export default {
 
 .notify-mod ul {
     list-style: none;
-    margin-left: -10px;
+    /* margin-left: -10px;*/
     font-size: 14px;
     color: #cedcd9;
-    margin-left: -40px;
+    /*margin-left: -40px;*/
 }
 
 .notify-mod li {
@@ -436,16 +436,16 @@ export default {
     margin-bottom: 10px;
 }
 
-.bean-time .time-list ul {
+.bean-time .time-list {
     /* width: 300px; */
     /* border: 1px red solid; */
-
+    margin-left: 31px;
 }
 
 .bean-time .time-list li {
     list-style: none;
     float: left;
-    margin-right: 50px;
+    margin-right: 47px;
     margin-bottom: 0;
     width: 90px;
     /* border: 1px red solid; */
@@ -455,8 +455,7 @@ export default {
 }
 
 .bean-time .left {
-
-    margin-left: -41px;
+    margin-left: -35px;
 }
 
 .bean-time .right {
@@ -510,7 +509,7 @@ export default {
     list-style: none;
     line-height: 1;
     margin-bottom: 15px;
-    margin-left: -40px;
+    /* margin-left: -40px;*/
     font-size: 14px;
 }
 
@@ -551,12 +550,10 @@ export default {
 .book img {
     width: 96px;
     height: 80px;
-    /* border: 1px red solid; */
 }
 
 .book .director {
-    /* border: 1px red solid; */
-    width: 169px;
+    width: 140px;
     height: 70px;
     display: inline-block;
     vertical-align: middle;
