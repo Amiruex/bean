@@ -7,7 +7,7 @@ import 'bootstrap'
 import '@/assets/css/bootstrap.css'
 import axios from 'axios'
 import "./static/css/common.css";
-import "@/assets/css/people.css";
+
 
 Vue.config.productionTip = false
 

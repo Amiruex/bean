@@ -58,7 +58,7 @@
                         <li>
                             <div class="item-meta">
                                 <div class="item-left">
-                                    <a href="#"><img src="../assets/up67314606-14.jpg" alt=""></a>
+                                    <a href="#"><img src="../assets/gallery-img/up67314606-14.jpg" alt=""></a>
                                     <a href="#" class="author">你在吃什么</a>
                                     <span>的日记</span>
                                     <a href="#" class="time">2020-9-14 21:11:35</a>
@@ -71,7 +71,7 @@
                             </div>
                             <div class="item-content">
                                 <span>前言，看电影这几年，我喜欢,我喜欢,我喜欢,我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢</span>
-                                <img src="../assets/up67314606-14.jpg" alt="">
+                                <img src="../assets/gallery-img/up67314606-14.jpg" alt="">
                             </div>
                             <div class="item-bottom">
                                 <span class="span1"><i></i> 396</span>
@@ -82,7 +82,7 @@
                         <li>
                             <div class="item-meta">
                                 <div class="item-left">
-                                    <a href="#"><img src="../assets/up67314606-14.jpg" alt=""></a>
+                                    <a href="#"><img src="../assets/gallery-img/up67314606-14.jpg" alt=""></a>
                                     <a href="#" class="author">你在吃什么</a>
                                     <span>的日记</span>
                                     <a href="#" class="time">2020-9-14 21:11:35</a>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="item-content">
                                 <span>前言，看电影这几年，我喜欢,我喜欢,我喜欢,我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢</span>
-                                <img src="../assets/up67314606-14.jpg" alt="">
+                                <img src="../assets/gallery-img/up67314606-14.jpg" alt="">
                             </div>
                             <div class="item-bottom">
                                 <span class="span1"><i></i> 396</span>
@@ -106,7 +106,7 @@
                         <li>
                             <div class="item-meta">
                                 <div class="item-left">
-                                    <a href="#"><img src="../assets/up67314606-14.jpg" alt=""></a>
+                                    <a href="#"><img src="../assets/gallery-img/up67314606-14.jpg" alt=""></a>
                                     <a href="#" class="author">你在吃什么</a>
                                     <span>的日记</span>
                                     <a href="#" class="time">2020-9-14 21:11:35</a>
@@ -119,7 +119,7 @@
                             </div>
                             <div class="item-content">
                                 <span>前言，看电影这几年，我喜欢,我喜欢,我喜欢,我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢</span>
-                                <img src="../assets/up67314606-14.jpg" alt="">
+                                <img src="../assets/gallery-img/up67314606-14.jpg" alt="">
                             </div>
                             <div class="item-bottom">
                                 <span class="span1"><i></i> 396</span>
@@ -130,7 +130,7 @@
                         <li>
                             <div class="item-meta">
                                 <div class="item-left">
-                                    <a href="#"><img src="../assets/up67314606-14.jpg" alt=""></a>
+                                    <a href="#"><img src="../assets/gallery-img/up67314606-14.jpg" alt=""></a>
                                     <a href="#" class="author">你在吃什么</a>
                                     <span>的日记</span>
                                     <a href="#" class="time">2020-9-14 21:11:35</a>
@@ -143,7 +143,7 @@
                             </div>
                             <div class="item-content">
                                 <span>前言，看电影这几年，我喜欢,我喜欢,我喜欢,我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢我喜欢</span>
-                                <img src="../assets/up67314606-14.jpg" alt="">
+                                <img src="../assets/gallery-img/up67314606-14.jpg" alt="">
                             </div>
                             <div class="item-bottom">
                                 <span class="span1"><i></i> 396</span>
@@ -176,50 +176,50 @@
                     <ol type="1">
                         <li><a href="#">如果把看手机时间用来做别的，我可以完成什么？</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
                         </li>
                         <li><a href="#">你拍下的日落红霞</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
                         </li>
                         <li><a href="#">秋天开始的瞬间</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">哪一刻决定要在豆瓣记录自己</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">适合在秋天漫步的城市</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">秋日时辰中的烟火气</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">我的宿舍书籍摆放分类法</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">你理想中的大学生活</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">小朋友语录</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
                         <li><a href="#">秋日时辰中的烟火气</a>
                             <span>112.0万次浏览</span>
-                            <img src="../assets/QQ图片20200916144536.png" alt="">
+                            <img src="../assets/gallery-img/QQ图片20200916144536.png" alt="">
 
                         </li>
 
@@ -237,7 +237,7 @@
                     
                     <ul class="topic-news">
                         <li class="clearfix">
-                            <img src="../assets/u220655939-1.jpg" alt="">
+                            <img src="../assets/gallery-img/u220655939-1.jpg" alt="">
                             <div class="news-title"><a href="#">优医联医生集团</a> <span>15分钟前发布</span></div>
                             <div class="news-content">
                                 <a href="#">抑制自己冲动消费的好办法</a>
@@ -246,7 +246,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/up67314606-14.jpg" alt="">
+                            <img src="../assets/gallery-img/up67314606-14.jpg" alt="">
                             <div class="news-title"><a href="#">优医联医生集团</a> <span>15分钟前发布</span></div>
                             <div class="news-content">
                                 <a href="#">抑制自己冲动消费的好办法</a>
@@ -255,7 +255,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/u130109494-6.jpg" alt="">
+                            <img src="../assets/gallery-img/u130109494-6.jpg" alt="">
                             <div class="news-title"><a href="#">优医联医生集团</a> <span>15分钟前发布</span></div>
                             <div class="news-content">
                                 <a href="#">抑制自己冲动消费的好办法</a>
@@ -264,7 +264,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/u4911422-12.jpg" alt="">
+                            <img src="../assets/gallery-img/u4911422-12.jpg" alt="">
                             <div class="news-title"><a href="#">优医联医生集团</a> <span>15分钟前发布</span></div>
                             <div class="news-content">
                                 <a href="#">抑制自己冲动消费的好办法</a>
@@ -273,7 +273,7 @@
                             </div>
                         </li>
                         <li>
-                            <img src="../assets/u95756081-24.jpg" alt="">
+                            <img src="../assets/gallery-img/u95756081-24.jpg" alt="">
                             <div class="news-title"><a href="#">优医联医生集团</a> <span>15分钟前发布</span></div>
                             <div class="news-content">
                                 <a href="#">抑制自己冲动消费的好办法</a>
@@ -479,7 +479,7 @@ ul li {
   width: 12px;
   height: 12px;
   line-height: 12px;
-  background: url(../assets/ic_upvote@2x.png) no-repeat;
+  background: url(../assets/gallery-img/ic_upvote@2x.png) no-repeat;
   background-size: 11px;
   /* background-position: 0 1px; */
 }
